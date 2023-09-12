@@ -1,0 +1,96 @@
+@media(max-width: 991px){
+
+
+	.veer-header{
+		background: #000;
+		opacity: 60%;
+	}
+	.veer-menu{
+		display: none;
+	}
+
+	.veer-menu-icon{
+		display: block;
+		text-align: right;
+	}
+
+	.veer-menu-icon i{
+		color: #fff;
+		font-size: 25px;
+	}
+
+	.veer-mobile-menu{
+		border-top: 1px solid #bdc3c7;
+		margin-top: 25px;
+	}
+
+	.veer-mobile-menu ul li a{
+		text-transform: uppercase;
+	    font-family: 'Poppins', sans-serif;
+	    color: #fff;
+	    display: block;
+	    padding: 7px 0;
+	}
+
+	/*About Area*/
+
+	.veer-about-img{
+		margin: 75px 0;
+	}
+
+	/*Blog Area*/
+
+	.blog-content{
+		text-align: center;
+	}
+
+	.blog-icon ul li{
+		margin: auto;
+	}
+
+	.logo1{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.foot-social ul li{
+		margin: auto;
+	}
+
+	.foot-social{
+		padding: 0 10px;
+		margin-top: 20px;
+	}
+
+	.foot-info ul li {
+		margin: auto;
+	}
+
+
+}
+
+
+
+@media(max-width: 575px){
+
+	.veer-about-img{
+		width: 75%;
+		margin: 75px auto;
+	}
+
+	.info{
+		display: block;
+	}
+
+	form .info input{
+		width: 100%;
+	}
+}
+
+@media(max-width: 390px){
+
+	form{
+		width: 90%;
+		padding: 0 12px;
+	}
+}

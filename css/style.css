@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@500&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	margin-bottom: 0;
+	list-style: none;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*Header Area*/
+
+.veer-header{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 20px 0;
+}
+
+.veer-logo{
+	display: block;
+}
+
+.veer-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.veer-menu ul li a{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+.veer-menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.veer-menu-icon{
+	display: none;
+}
+
+.veer-mobile-menu{
+	display: none;
+}
+
+
+/*Banner Area*/
+.veer-banner{
+	background: url('../images/24.png');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.veer-banner-txt{
+	text-align: center;
+}
+
+.veer-banner-txt em{
+	color: #fff;
+	font-size: 30px;
+}
+
+.veer-banner-txt h1{
+	font-size: 70px;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+.veer-banner-txt h1 span{
+	font-weight: 400;
+	font-style: italic;
+}
+
+/*About Area*/
+
+.veer-about{
+	background: #f2f6f6;
+	padding: 100px 0;
+}
+
+.veer-about-txt em{
+	color: #252525;
+	font-size: 30px;
+}
+
+.veer-about-txt h2{
+	color: #252525;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.veer-about-txt p{
+	color: #252525;
+	font-size: 14px;
+}
+
+.veer-about-txt a{
+	text-transform: uppercase;
+	color: #fff;
+	background: #3d9cd8;
+	padding: 10px 30px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.veer-about-img{
+	position: relative;
+}
+
+.veer-about-img img{
+	width: 100%;
+	position: relative;
+	z-index: 99;
+}
+
+.veer-about-img::before{
+	content: '';
+	display: block;
+	width: 200px;
+	height: 90px;
+	border: 7px solid #bddcf0;
+	position: absolute;
+	left: -30px;
+	top: -30px;
+}
+
+.veer-about-img::after{
+	content: '';
+	display: block;
+	width: 150px;
+	height: 90px;
+	border: 7px solid #bddcf0;
+	position: absolute;
+	right: -30px;
+	bottom: -30px;
+}
+
+
+/*Service Area*/
+
+.veer-service{
+	padding: 100px 0;
+}
+
+.veer-service-title{
+	text-align: center;
+}
+
+.veer-service-title h2{
+	color: #252525;
+	font-size: 35px;
+	font-weight: 700;
+	position: relative;
+}
+
+.veer-service-title h2::before{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 83px;
+	background: #009cff;
+	position: absolute;
+	left: 42%;
+	bottom: -10px;
+}
+
+.veer-service-title h2::after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 83px;
+	background: #85d0ff;
+	position: absolute;
+	right: 41%;
+	bottom: -15px;
+}
+
+.veer-service-title p{
+	font-size: 14px;
+	color: #252525;
+	margin-top: 45px;
+}
+
+.veer-services{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.veer-services img{
+	margin-bottom: 20px;
+}
+
+.veer-services h6{
+	color: #3f3f3f;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.veer-services p{
+	color: #3f3f3f;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+/*Video Area*/
+
+.veer-video{
+	background: url('../images/26.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 300px 0;
+	text-align: center;
+}
+
+.veer-video a{
+	color: #fff;
+	font-size: 40px;
+	text-shadow: -5px 0 2px #00207a;
+}
+
+/*Work Area*/
+
+.veer-work{
+	padding: 100px 0;
+}
+
+.veer-work-img img{
+	margin-bottom: 25px;
+}
+
+
+/*Client Area*/
+
+.veer-client{
+	background: url('../images/veer.png');
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.client-img{
+	text-align: center;
+}
+
+.client-img h4{
+	color: #252525;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.client-img p{
+	color: #919191;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.client-img ul{
+	display: flex;
+	justify-content: center;
+}
+
+.client-img ul li i{
+	color: #e67d5f;
+	padding: 0 2px;
+
+}
+
+
+/*Team Area*/
+
+.veer-team{
+	padding: 100px 0;
+}
+
+.team{
+	background: #f3f6f7;
+	transition: .4s;
+}
+
+.team:hover{
+	background: transparent;
+}
+
+.team-img{
+	position: relative;
+}
+
+.team-img:hover{
+	opacity: 70%;
+}
+
+.team-img img{
+	width: 100%;
+}
+
+.team-text{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.team-text h5{
+	color: #000;
+	font-size: 13px;
+	margin: 0;
+}
+
+.team-text em{
+	color: #0e7b9e;
+	font-size: 14px;
+}
+
+.team-social{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.team-social ul{
+	display: flex;
+}
+
+.team-social ul li a{
+	color: #000;
+	padding: 0 10px;
+	font-size: 20px;
+	opacity: 0;
+	transition: .4s;
+}
+
+.team:hover .team-social ul li a{
+	opacity: 1;
+}
+
+.team-social ul li a:hover{
+	color: #0e7b9e;
+}
+
+/*Blog Area*/
+
+.veer-blog{
+	padding: 100px 0;
+}
+
+.veer-blog h2{
+	color: #1ab761;
+}
+
+.blog-text{
+	padding: 20px 0;
+}
+
+.blog-text h5{
+	color: #3d9cd8;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.blog-text h6{
+	color: #272727;
+	font-size: 13px;
+}
+
+.blog-text span i{
+	color: #e57e60;
+}
+
+.blog-text p{
+	color: #333333;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.blog-icon ul{
+	display: flex;
+	margin-top: 30px;
+}
+
+.blog-icon ul li {
+	padding-right: 20px ;
+}
+
+.blog-icon ul li:first-child i:hover{
+	color: #e57e60;
+}
+
+
+.blog-content{
+	margin:30px 0;
+}
+
+.blog-content:hover{
+	background: #f8fafc;
+}
+
+.blog-logo{
+	margin-top: 80px;
+}
+
+/*Form*/
+
+form{
+	background: #100d1d;
+	width: 70%;
+	margin: auto;
+	padding: 10px 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 81%;
+}
+
+form h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.info{
+	display: flex;
+	justify-content: space-between;
+}
+
+.info input{
+	width: 49%;
+	background: transparent;
+	margin-bottom: 10px;
+	color: #565662;
+	font-size: 14px;
+	border: 1px solid #68666f;
+	display: block;
+}
+
+.info input::placeholder{
+	padding-left: 10px;
+}
+
+.msg textarea{
+	width: 100%;
+	background: transparent;
+	color: #565662;
+	font-size: 14px;
+	border: 1px solid #68666f;
+}
+
+.btn{
+	padding: 20px 0;
+}
+
+.btn input{
+	color: #fff;
+	padding: 10px 30px;
+	background: #3d9cd8;
+	font-size: 16px;
+	border: none;
+}
+
+.veer-contact{
+	position: relative;
+}
+
+.foot-info ul{
+	display: flex;
+}
+
+.foot-info ul li a{
+	padding: 0 20px;
+	color: #757575;
+	font-size: 13px;
+}
+
+.foot-social ul{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.foot-social ul li a{
+	padding: 0 20px;
+	color: #757575;
+	font-size: 13px;
+}
+
+footer{
+	padding: 20px 0;
+}
+
